@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: client
+  profiles:
+    active: uat
+  config:
+    import: optional:configserver:http://localhost:8888

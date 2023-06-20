@@ -1,0 +1,15 @@
+base-key: 123456
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+api-path: "http://test-dev"
+---
+spring:
+  config:
+    activate:
+      on-profile: uat
+api-path: "http://test-uat"
+---
